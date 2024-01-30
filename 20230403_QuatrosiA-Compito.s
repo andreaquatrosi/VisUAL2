@@ -1,7 +1,7 @@
 lenght_a     dcd     8
 array_a      dcd     3,10,9,7,5,2,0,4
-lenght_b     dcd     6
-array_b      dcd     10,20,3,5,2,33
+lenght_b     dcd     8
+array_b      dcd     10,20,3,5,2,33,54,100
 found        fill    32
 
              ;r0     = temp dim
@@ -64,12 +64,4 @@ end_loop_a
              ldr     r2, [r0]
              bl      reset_a
 end_loop_b   
-
-
-
-
-
-
-
-
-
+             end
